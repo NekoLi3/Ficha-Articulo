@@ -1,0 +1,45 @@
+.title{
+    text-align: left;
+}
+.title p{
+    color: #a9ced0;
+    margin: 30px;
+    font-size: xx-large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    max-width: 40%;
+}
+body {
+    background-color: #31363F;
+}
+
+p {
+    color: #76ABAE;
+    font-family: monaco, sans-serif;
+}
+.main{
+    display: flex;
+    width: 100%;
+    padding-right: 1em;
+    font-size: medium;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+.main div{
+    width: 40%;
+    padding: 10px;
+    border-top: 500px;
+}
+/*.main div:nth-child(2) #a{
+    display: flex;
+    min-height: 50vh; !* Asegura que el contenedor ocupe al menos el 100% de la altura de la ventana *!
+    align-items: flex-end; !* Alinea los elementos al final del contenedor *!
+    justify-content: center;
+}*/
+
+.main p:first-child {
+    color: #EEEE;
+    text-shadow: 2px 3px #7C9192;
+}
+
